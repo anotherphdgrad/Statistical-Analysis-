@@ -10,8 +10,8 @@ men_accuracy = [0.75, 0.77, 0.79, 0.80, 0.74, 0.78, 0.81, 0.76, 0.79, 0.77, 0.78
 plt.figure(figsize=(10, 6))
 
 # Plot histograms
-plt.hist(women_accuracy, bins=np.arange(0.7, 0.91, 0.02), alpha=0.5, label="Women", color='blue', edgecolor='black')
-plt.hist(men_accuracy, bins=np.arange(0.7, 0.91, 0.02), alpha=0.5, label="Men", color='green', edgecolor='black')
+plt.hist(women_accuracy, bins=np.arange(0.7, 0.91, 0.02), alpha=0.5, label="Women", color='blue', edgecolor='black') #Shaily--We need to change arange based on the excel sheets
+plt.hist(men_accuracy, bins=np.arange(0.7, 0.91, 0.02), alpha=0.5, label="Men", color='green', edgecolor='black') #-We need to change arange based on the excel sheets
 
 # Add labels and title
 plt.xlabel("Accuracy")
