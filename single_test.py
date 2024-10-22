@@ -2,6 +2,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy.stats import mannwhitneyu
 
+# Use this code approach wise Run for Fedavg and HA-FL. 
+# Expectations is:
+# Fedavg will show statistically significant differences (Reject the null hypothesis)
+# HA-FL will NOT show statistically significant differences (Accept the null hypothesis)
+
 # Data for the two groups
 women_accuracy = [0.85, 0.87, 0.80, 0.82, 0.83, 0.86, 0.88, 0.81]
 men_accuracy = [0.75, 0.77, 0.79, 0.80, 0.74, 0.78, 0.81, 0.76, 0.79, 0.77, 0.78, 0.80]
